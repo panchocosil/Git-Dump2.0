@@ -51,7 +51,7 @@ Usage
 
 Single Target
 ```
-python3 git-dump.py https://target.tld ./output-dir
+python3 git-dump2.0.py https://target.tld ./output-dir
 ```
 
 Multiple Targets from a File
@@ -67,7 +67,7 @@ https://target2.tld/.git/ custom/output/path
 
 Run:
 ```
-python3 git-dump.py -f urls.txt --out-base dumps --parallel-targets 4
+python3 git-dump2.0.py -f urls.txt --out-base dumps --parallel-targets 4
 ```
 
 ⸻
@@ -102,7 +102,7 @@ https://example.com/.git/
 
 Run:
 ```
-python3 git-dump.py -f urls.txt --out-base dumps --parallel-targets 4 -j 10 -t 5
+python3 git-dump2.0.py -f urls.txt --out-base dumps --parallel-targets 4 -j 10 -t 5
 ```
 
 This will:
