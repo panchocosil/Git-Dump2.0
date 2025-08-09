@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+dulwich
+urllib3
+requests-pkcs12
+PySocks
