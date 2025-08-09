@@ -106,7 +106,7 @@ python3 git-dump.py -f urls.txt --out-base dumps --parallel-targets 4 -j 10 -t 5
 ```
 
 This will:
-	•	Create dumps/pixbradesco.koandina.com_8008_.git and similar folders.
+	•	Create dumps/example.com_8008_.git and similar folders.
 	•	Attempt to recover each exposed .git repo.
 	•	Restore files with git checkout . inside each recovered repo.
 
