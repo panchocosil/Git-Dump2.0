@@ -32,8 +32,8 @@ It supports **single-target** mode or **multi-target list processing** from a fi
 
 ## Installation
 ```bash
-git clone https://github.com/panchocosil/git-dump2.0.git
-cd git-dump2.0
+git clone https://github.com/panchocosil/Git-Dump2.0.git
+cd Git-Dump2.0
 pip3 install -r requirements.txt
 ```
 
